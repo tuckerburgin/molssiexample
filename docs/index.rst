@@ -6,6 +6,8 @@
 Welcome to molssiexample's documentation!
 =========================================================
 
+Introduction to my package.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

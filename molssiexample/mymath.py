@@ -16,6 +16,25 @@ def fact(x):
 
 
 def euler(n=10):
+    """
+    Evaluate Taylor expansion of Euler number :math:`e` to n terms.
+
+    .. math::
+
+        e = \\sum_{x=0}^n \\frac{1}{x!}
+
+    Parameters
+    ----------
+    n : int, Optional, default: 10
+        Number or terms in taylor expansion; must be >= 0
+
+    Returns
+    -------
+    sum : float
+        Resulting approximation of Euler number
+
+    """
+
     if n < 0:
         raise ValueError("n must be >= 0")
     sum = 0
@@ -25,6 +44,20 @@ def euler(n=10):
 
 
 def pi(n=100):
+    """
+    Approximate pi using stochastic method with n iterations.
+
+    Parameters
+    ----------
+    n : int, Optional, default: 100
+        Number or iterations in stochastic method; must be >= 0
+
+    Returns
+    -------
+    sum : float
+        Resulting approximation of pi
+    """
+
     count = 0
     for i in range(n):
         if math.sqrt(random.random()**2 + random.random()**2) < 1:
@@ -34,4 +67,3 @@ def pi(n=100):
     return (pi)
 
 
-print(pi(100000))
