@@ -1,7 +1,7 @@
 molssiexample
 ==============================
 [//]: # (Badges)
-[![Travis Build Status](https://travis-ci.org/tuckerburgin/molssiexample.png)](https://travis-ci.org/tuckerburgin/molssiexample)
+[![Travis Build Status](https://travis-ci.com/tuckerburgin/molssiexample.png)](https://travis-ci.com/tuckerburgin/molssiexample)
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/REPLACE_WITH_APPVEYOR_LINK/branch/master?svg=true)](https://ci.appveyor.com/project/tuckerburgin/molssiexample/branch/master)
 [![codecov](https://codecov.io/gh/tuckerburgin/molssiexample/branch/master/graph/badge.svg)](https://codecov.io/gh/tuckerburgin/molssiexample/branch/master)
 
