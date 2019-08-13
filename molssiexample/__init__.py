@@ -5,7 +5,7 @@ Example project for MolSSI cookiecutter
 
 # Add imports here
 from .molssiexample import *
-from . import math
+from . import mymath
 
 # Handle versioneer
 from ._version import get_versions
